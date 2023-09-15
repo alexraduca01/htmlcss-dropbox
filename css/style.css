@@ -17,3 +17,9 @@
     --box-bg-sixth: #FFD830;
     --dark-bg: #000000;
 }
+
+/* utility */
+
+.debug {
+    border: 1px solid black;
+}
