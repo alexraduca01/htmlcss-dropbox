@@ -7,6 +7,7 @@
 }
 
 :root {
+    --light-txt: #ffffff;
     --btn-bg: #0061FF;
     --light-bg: #B4D0E7;
     --box-bg-first: #A2D39B;
@@ -18,8 +19,63 @@
     --dark-bg: #000000;
 }
 
+/* colors */
+
+.primary-txt-color {
+    color: var(--dark-bg);
+}
+
 /* utility */
 
 .debug {
     border: 1px solid black;
+}
+ul {
+    list-style: none;
+}
+.horizontal-list {
+    display: inline-block;
+}
+.no-text-decoration {
+    text-decoration: none;
+}
+.txt-side-padding {
+    padding: 0 10px;
+}
+.blue-button {
+    color: var(--light-txt);
+    background-color: var(--btn-bg);
+    padding: 8px 15px;
+}
+
+/* header */
+
+nav {
+    height: 70px;
+    width: 100%;
+}
+.logo {
+    width: 110px;
+    cursor: pointer;
+}
+.utility {
+    padding: 10px 15px;
+}
+
+
+/* flex */
+
+.d-flex {
+    display: flex;
+}
+.justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+.side-gap {
+    gap: 10px;
 }
