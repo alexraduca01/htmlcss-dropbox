@@ -50,6 +50,7 @@ ul {
 
 /* header */
 
+/* navbar */
 nav {
     height: 70px;
     width: 100%;
@@ -62,15 +63,44 @@ nav {
     padding: 10px 15px;
 }
 
+/* hero */
+
+#hero {
+    background-color: var(--light-bg);
+}
+.wrapper {
+    padding-top: 140px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.content-box {
+    width: 40%;
+}
+.jumbo-box {
+    width: 60%;
+}
+.jumbo {
+    width: 80%;
+    position: relative;
+    bottom: -90px;
+    left: 0;
+}
+h1 {
+    font-size: 5em;
+}
+.fa-arrow-down {
+    font-size: 3em;
+}
 
 /* flex */
 
-.d-flex {
-    display: flex;
-}
 .justify-space-between {
     display: flex;
     justify-content: space-between;
+}
+.justify-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
 }
 .align-center {
     display: flex;
@@ -78,4 +108,12 @@ nav {
 }
 .side-gap {
     gap: 10px;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }
