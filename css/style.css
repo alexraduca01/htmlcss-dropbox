@@ -1,0 +1,19 @@
+/* preset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --btn-bg: #0061FF;
+    --light-bg: #B4D0E7;
+    --box-bg-first: #A2D39B;
+    --box-bg-second: #61082B;
+    --box-bg-third: #D5001F;
+    --box-bg-fourth: #0093CE;
+    --box-bg-fifth: #0D2481;
+    --box-bg-sixth: #FFD830;
+    --dark-bg: #000000;
+}
