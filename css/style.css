@@ -74,6 +74,12 @@ h2 {
 .txt-center {
     text-align: center;
 }
+.white-button {
+    font-size: 1em;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
 
 /* header */
 
@@ -174,9 +180,19 @@ h3 {
 
 .partner {
     width: 100%;
+    margin-top: 180px;
 }
-
-
+.partner-foto {
+    width: 60%;
+}
+.partner-foto > img {
+    display: block;
+    width: 100%;
+}
+.partner-content {
+    width: 40%;
+    padding: 80px;
+}
 
 /* flex */
 
