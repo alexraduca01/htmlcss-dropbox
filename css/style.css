@@ -27,6 +27,12 @@
 .blue-check {
     color: var(--btn-bg);
 }
+.btn-bg {
+    background-color: var(--btn-bg);
+}
+.transparent-txt {
+    color: rgba(0, 0, 0, 0.5);
+}
 
 /* utility */
 
@@ -47,6 +53,15 @@ ul {
 }
 .txt-between-padding {
     padding: 30px 0;
+}
+.txt-gen-padding {
+    padding: 25px;
+}
+.containers-between-margin {
+    margin: 30px 0;
+}
+.txt-between-margin {
+    margin: 10px 0;
 }
 .blue-button {
     color: var(--light-txt);
@@ -118,9 +133,50 @@ h1 {
 .plans {
     margin-top: 80px;
 }
-.card {
-    width: calc(100% / 3 - 20px);
+input[type="radio"] {
+    width: 1.5em;
+    height: 1.5em;
+    transform: translateY(0.4em);
 }
+.card {
+    width: calc(100% / 3 - 60px);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.top-card {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+h3 {
+    font-size: 1.7em;
+}
+.line {
+    width: 125px;
+    border-top: 1px solid black;
+    margin-left: 25px;
+}
+
+/* enterprise section */
+
+.enterprise {
+    width: 100%;
+    margin-top: 60px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.desc {
+    margin-top: 50px;
+}
+
+/* partner section */
+
+.partner {
+    width: 100%;
+}
+
+
 
 /* flex */
 
@@ -153,5 +209,9 @@ h1 {
 .flex-wrap {
     display: flex;
     flex-wrap: wrap;
+}
+.flex-stretch {
+    display: flex;
+    align-items: stretch;
 }
 
