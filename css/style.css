@@ -16,6 +16,7 @@
     --box-bg-fourth: #0093CE;
     --box-bg-fifth: #0D2481;
     --box-bg-sixth: #FFD830;
+    --bigger-box-bg: #F5F5F5;
     --dark-bg: #000000;
 }
 
@@ -63,6 +64,12 @@ ul {
 .txt-between-margin {
     margin: 10px 0;
 }
+.mt-30 {
+    margin-top: 30px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
 .blue-button {
     color: var(--light-txt);
     background-color: var(--btn-bg);
@@ -75,7 +82,7 @@ h2 {
     text-align: center;
 }
 .white-button {
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: white;
     padding: 10px;
     cursor: pointer;
@@ -106,17 +113,22 @@ nav {
     width: 80vw;
     margin: 0 auto;
 }
+.bottom-hero {
+    position: relative;
+    bottom: -110px;
+    left: 0;
+}
 .content-box {
-    width: 40%;
+    width: 35%;
 }
 .jumbo-box {
-    width: 60%;
+    width: 65%;
 }
 .jumbo {
     width: 80%;
-    position: relative;
+    /* position: relative;
     bottom: -90px;
-    left: 0;
+    left: 0; */
 }
 h1 {
     font-size: 5em;
@@ -159,7 +171,7 @@ h3 {
 }
 .line {
     width: 125px;
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
     margin-left: 25px;
 }
 
