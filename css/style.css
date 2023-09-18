@@ -58,6 +58,9 @@
 .txt-color {
     color: var(--bg-second);
 }
+.txt-white {
+    color: white;
+}
 
 /* utility */
 
@@ -333,6 +336,7 @@ summary {
     font-size: 1.3em;
     font-weight: bold;
     list-style: none;
+    cursor: pointer;
 }
 .third-line {
     width: 100%;
@@ -341,6 +345,39 @@ summary {
 .chevron {
     position: absolute;
     right: 0;
+}
+
+/* main */
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: var(--box-bg);
+    padding: 60px 0;
+}
+.top-footer > ul > li {
+    margin-top: 20px;
+}
+.fourth-line {
+    border-top: 1px solid white;
+    width: 125px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+select{
+    margin-left: 5px;
+    font-size: 1.1em;
+    color: lightgray;
+    background: none;
+    border: none;
+    -webkit-appearance: none;
+}
+option {
+    color: black;
+}
+.earth {
+    transform: translateY(-0.1em);
 }
 
 /* flex */
