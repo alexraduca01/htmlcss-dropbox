@@ -137,10 +137,17 @@ h2 {
 nav {
     height: 70px;
     width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .logo {
     width: 110px;
     cursor: pointer;
+    transform: translateY(0.1em);
 }
 .utility {
     padding: 10px 15px;
@@ -379,6 +386,8 @@ option {
 .earth {
     transform: translateY(-0.1em);
 }
+
+/* footer */
 
 /* flex */
 
