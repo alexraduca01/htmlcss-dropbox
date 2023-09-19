@@ -298,7 +298,6 @@ h3 {
     height: calc(100vw / 3);
 }
 .box {
-    color: white;
     width: calc(100% / 2);
     position: relative;
     cursor: pointer;
